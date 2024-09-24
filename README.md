@@ -2,10 +2,10 @@
 
 Debug docker container that has a few tools for k8s debugging:
 
-`/tools/pid2pod <pid>` - Find pod that has PID on node debug
-`/tools/inotify-consumers` - Get inotify consumers
-`iperf` - Network performance testing
-`google-cloud-cli` - CLI for talking with GCloud
+`/tools/pid2pod <pid>` - Find pod that has PID on node debug  
+`/tools/inotify-consumers` - Get inotify consumers.  
+`iperf` - Network performance testing  
+`google-cloud-cli` - CLI for talking with GCloud  
 
 # Node debug
 ```
