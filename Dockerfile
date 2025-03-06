@@ -17,3 +17,8 @@ RUN curl -Lo /tools/pid2pod https://github.com/k8s-school/pid2pod/releases/downl
 RUN curl -Lo /tools/inotify-consumers https://raw.githubusercontent.com/fatso83/dotfiles/master/utils/scripts/inotify-consumers
 RUN chmod uga+x /tools/*
 
+LABEL org.opencontainers.image.description='Techwolf12 Kubernetes debug container with helpful tools' \
+  org.opencontainers.image.title='Techwolf12 Kubernetes debug container' \
+  org.opencontainers.image.source='https://github.com/Techwolf12/debug-container/' \
+  io.artifacthub.package.readme-url='https://raw.githubusercontent.com/Techwolf12/debug-container/refs/heads/main/README.md' \
+  io.artifacthub.package.maintainers='[{"name":"Christiaan", "email":"contact@techwolf12.nl"}]'
